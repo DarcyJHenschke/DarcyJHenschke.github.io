@@ -1,0 +1,78 @@
+@use "./../Partials/mixins";
+@use "./../Partials/palettes";
+@use "./../Partials/media-queries";
+
+.about {
+    @include mixins.secondary-palette;
+    @include mixins.page-size;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__text-wrapper {
+        @include mixins.flex-column;
+        min-width: 200px;
+        max-width: 500px;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    &__heading {
+        @include mixins.section-title;
+    }
+
+    &__para-1 {
+        font-size: 2vh;
+    }
+
+    &__para-2 {
+        font-size: 2vh;
+    }
+
+    &__para-3 {
+        font-size: 2vh;
+    }
+
+    @include media-queries.small {
+        .about__img {
+            width: 200px;
+            height: 250px;
+        }
+    }
+
+    @include media-queries.medium {
+        .about__img {
+            width: 240px;
+            height: 300px;
+        }
+    }
+    @include media-queries.large {
+        .about__img {
+            width: 288px;
+            height: 360px;
+        }
+    }
+
+    @include media-queries.xtra-large {
+        .about__img {
+            width: 346px;
+            height: 432px;
+        }
+    }
+
+    @include media-queries.xxl {
+        .about__img {
+            width: 415px;
+            height: 518px;
+        }
+    }
+
+    &__img {
+        border: 4px solid palettes.$tertiary-color;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-bottom: 3vh;
+    }
+}
