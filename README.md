@@ -12,4 +12,4 @@ The purpose of this project and ultimately the finalised website is to showcase 
 - website is fully responsive to whatever screen size is applied
 
 ## Link
-To view website simply clone this repo to your local repo and then open the HTML file with a live server.
+To view website simply [Click Here](http://DarcyJHenschke.github.io/)
