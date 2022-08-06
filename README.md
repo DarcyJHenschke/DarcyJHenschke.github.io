@@ -13,3 +13,7 @@ The purpose of this project and ultimately the finalised website is to showcase 
 
 ## Link
 To view website simply [Click Here](http://DarcyJHenschke.github.io/)
+<figure>
+<figcaption>Live Design</figcaption>
+<img src="./imgs/screenshot.png" width="300px"/>
+</figure>
