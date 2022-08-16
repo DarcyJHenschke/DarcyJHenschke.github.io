@@ -19,6 +19,7 @@
 
 // styling of imgs within project section
 .img-wrapper {
+    all: unset;
     @include mixins.flex-column;
     font-size: 3vh;
 

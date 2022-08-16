@@ -94,16 +94,15 @@
                 <div
                     class="footer-wrapper footer-wrapper--margin footer-wrapper--padding footer-wrapper--width footer-wrapper--border"
                 >
-                    <div
-                        class="link-wrapper link-wrapper--df link-wrapper--jcc link-wrapper--aic"
-                    >
+                    <div class="link-wrapper">
                         <a
-                            href=""
+                            href="mailto: darcyhenschke@gmail.com"
                             class="link-wrapper__link link-wrapper__link--display-flex link-wrapper__link--styles"
                             target="_blank"
                         >
                             <div class="svg-wrapper">
                                 <svg
+                                    style="fill: #ff9505"
                                     class="svg svg--color svg--size"
                                     xmlns="http://www.w3.org/2000/svg"
                                     x="0px"
@@ -111,15 +110,14 @@
                                     width="24"
                                     height="24"
                                     viewBox="0 0 24 24"
-                                    style="fill: #ff9505"
                                 >
                                     <path
-                                        d="M 12 2 C 6.4889971 2 2 6.4889971 2 12 C 2 17.511003 6.4889971 22 12 22 C 17.511003 22 22 17.511003 22 12 C 22 6.4889971 17.511003 2 12 2 z M 12 4 C 16.430123 4 20 7.5698774 20 12 C 20 16.014467 17.065322 19.313017 13.21875 19.898438 L 13.21875 14.384766 L 15.546875 14.384766 L 15.912109 12.019531 L 13.21875 12.019531 L 13.21875 10.726562 C 13.21875 9.7435625 13.538984 8.8710938 14.458984 8.8710938 L 15.935547 8.8710938 L 15.935547 6.8066406 C 15.675547 6.7716406 15.126844 6.6953125 14.089844 6.6953125 C 11.923844 6.6953125 10.654297 7.8393125 10.654297 10.445312 L 10.654297 12.019531 L 8.4277344 12.019531 L 8.4277344 14.384766 L 10.654297 14.384766 L 10.654297 19.878906 C 6.8702905 19.240845 4 15.970237 4 12 C 4 7.5698774 7.5698774 4 12 4 z"
+                                        d="M 4 4 C 2.895 4 2 4.895 2 6 L 2 18 C 2 19.105 2.895 20 4 20 L 20 20 C 21.105 20 22 19.105 22 18 L 22 6 C 22 4.895 21.105 4 20 4 L 4 4 z M 5.5976562 6 L 18.402344 6 L 12 10 L 5.5976562 6 z M 5 8.6269531 L 12 13 L 19 8.6269531 L 19 18 L 5 18 L 5 8.6269531 z"
                                     ></path>
                                 </svg>
+                                <p>Email</p>
                             </div>
-                            Facebook</a
-                        >
+                        </a>
                     </div>
                     <div class="link-wrapper">
                         <a
@@ -408,30 +406,42 @@
         <section class="projects" id="projects">
             <h2 class="projects__title">My Projects</h2>
             <div class="projects__wrapper">
-                <div class="img-wrapper javascript-calculator">
+                <a
+                    target="_blank"
+                    href="https://github.com/DarcyJHenschke/JavaScript-Calculator"
+                    class="img-wrapper javascript-calculator"
+                >
                     <img
                         class="img-wrapper__img"
-                        src="./imgs/placeholder-images-image_large.webp"
+                        src="./imgs/calculator.png"
                         alt=""
                     />
                     <p>JavaScript Calculator</p>
-                </div>
-                <div class="img-wrapper Morse-coder">
+                </a>
+                <a
+                    target="_blank"
+                    href="https://github.com/DarcyJHenschke/Morse-Coder"
+                    class="img-wrapper Morse-coder"
+                >
                     <img
                         class="img-wrapper__img"
-                        src="./imgs/placeholder-images-image_large.webp"
+                        src="./imgs/morseCoder.png"
                         alt=""
                     />
                     <p>Morse Coder</p>
-                </div>
-                <div class="img-wrapper bookle">
+                </a>
+                <a
+                    target="_blank"
+                    href="https://github.com/DarcyJHenschke/Google-Books_UI"
+                    class="img-wrapper bookle"
+                >
                     <img
                         class="img-wrapper__img"
-                        src="./imgs/placeholder-images-image_large.webp"
+                        src="./imgs/googleBooks.png"
                         alt=""
                     />
-                    <p>Bookle</p>
-                </div>
+                    <p>The Librarian - Book Searcher</p>
+                </a>
                 <div class="img-wrapper project-4">
                     <img
                         class="img-wrapper__img"
@@ -538,24 +548,6 @@
                         <p>LinkedIn</p>
                     </div>
                 </a>
-                <a class="link" href="" target="_blank">
-                    <div class="link__wrapper">
-                        <svg
-                            class="contact__img2"
-                            xmlns="http://www.w3.org/2000/svg"
-                            x="0px"
-                            y="0px"
-                            width="30"
-                            height="30"
-                            viewBox="0 0 30 30"
-                        >
-                            <path
-                                d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"
-                            ></path>
-                        </svg>
-                        <p>Facebook</p>
-                    </div>
-                </a>
             </div>
         </section>
 
@@ -575,7 +567,7 @@
 
             function closeMenu() {
                 hamburger.classList.remove("active");
-                navMenu.classList.remove("active");
+                navLinkList.classList.remove("active");
             }
         </script>
     </body>
