@@ -50,6 +50,13 @@
         }
     }
 
+    @include media-queries.xxl {
+        .img-wrapper__img {
+            width: 416px;
+            height: 518px;
+        }
+    }
+
     &__img {
         // width: 200px;
         // height: 250px;
