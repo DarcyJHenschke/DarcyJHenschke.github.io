@@ -445,10 +445,13 @@
   width: 90vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 4vh 4vw 4vh 4vw;
+}
+
+.fa-brands {
+  color: #3f4739;
 }
 
 .language {
@@ -462,5 +465,3 @@
   width: 10vw;
   height: 10vh;
 }
-
-/*# sourceMappingURL=styles.css.map */
