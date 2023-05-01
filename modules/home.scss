@@ -238,10 +238,12 @@
             color: palettes.$secondary-color;
             text-decoration: none;
             font-size: 2vh;
+            transition: transform 250ms;
         }
 
         &--styles:hover {
             color: palettes.$tertiary-color;
+            transform: translateY(-10px);
         }
     }
 }

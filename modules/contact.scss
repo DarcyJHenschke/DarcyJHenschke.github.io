@@ -7,8 +7,10 @@
     @include mixins.primary-palette;
 
     &-wrapper {
-        @include mixins.default-width;
-        @include mixins.flex-wrap;
+        min-width: 70vw;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 3rem;
     }
 
     &__title {
@@ -41,4 +43,8 @@
         padding: 4vh 4vw 4vh 4vw;
         @include mixins.flex-column;
     }
+}
+
+.contactIcon {
+    font-size: 3rem;
 }

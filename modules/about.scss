@@ -3,7 +3,7 @@
 @use "./../Partials/media-queries";
 
 .about {
-    @include mixins.secondary-palette;
+    @include mixins.primary-palette;
     @include mixins.page-size;
 
     display: flex;

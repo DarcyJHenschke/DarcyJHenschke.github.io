@@ -5,7 +5,7 @@
 // Projects page or section wrapper styles
 .projects {
     @include mixins.flex-column;
-    @include mixins.secondary-palette;
+    @include mixins.primary-palette;
     @include mixins.page-size;
 
     &__wrapper {
@@ -15,6 +15,7 @@
     &__title {
         @include mixins.section-title;
     }
+    margin-top: 3rem;
 }
 
 // styling of imgs within project section
@@ -70,6 +71,8 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: space-evenly;
+    width: 100%;
+    margin: 3rem 0 3rem 0;
 }
 
 .img {
@@ -87,22 +90,44 @@
     align-items: center;
     justify-content: space-evenly;
     width: 350px;
+    margin: 1rem;
 }
 
 .title {
     text-align: center;
 }
 
-.stack {
+.stackList {
     display: flex;
     justify-content: space-evenly;
     width: 350px;
+    margin: 0.5rem;
+}
+
+.stackIcon {
+    font-size: 3rem;
 }
 
 .linkWrapper {
     width: 350px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     border-top: solid 4px #ff9505;
     padding-top: 1rem;
+}
+
+.projectLink {
+    text-decoration: none;
+    color: palettes.$secondary-color;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.projectLink:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+    opacity: 1;
+}
+.projectIcon {
+    font-size: 3rem;
 }
